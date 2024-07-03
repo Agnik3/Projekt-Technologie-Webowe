@@ -77,6 +77,7 @@ function App() {
     })
       .then((res) => {
         if (res.ok) {
+          console.log(res.json())
           return res.json();
         }
         throw new Error('Network response was not ok.');
@@ -91,6 +92,7 @@ function App() {
       .catch((error) => {
         console.error('Error updating author:', error);
       });
+
   };
 
 

@@ -6,14 +6,14 @@ export const AddAuthor = ({ onAdd }) => {
 
   const handleSubmit = (event) => {
     if (name && surname) {
-      onAdd(name, surname);
+      onAdd(event);
       setName('');
       setSurname('');
   };
   };
     return(
       <fieldset >
-        <form onSubmit={onAdd}>
+        <form onSubmit={handleSubmit}>
           <div className="xdd">
             <label htmlFor="name" className="xdd">Name: </label>
             <input 
