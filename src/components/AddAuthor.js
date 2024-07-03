@@ -14,6 +14,9 @@ export const AddAuthor = ({ onAdd }) => {
     return(
       <fieldset >
         <form onSubmit={handleSubmit}>
+          <div>
+            <h3>Add new author</h3>
+          </div>
           <div className="xdd">
             <label htmlFor="name" className="xdd">Name: </label>
             <input 

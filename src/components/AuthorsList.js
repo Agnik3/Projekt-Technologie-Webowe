@@ -24,12 +24,14 @@ export const AuthorsList = ({ authors = [], onDelete, onUpdate, onRefresh }) => 
         if (newName && newSurname) {
             onUpdate(selectedAuthor.id, newName, newSurname);
             handleModalClose();
+            onRefresh();
         }
     };
 
     useEffect(() => {
         console.log('Fetching authors...');
-    }, [onRefresh]);
+    }, [
+    ]);
 
     return (
         <div>
