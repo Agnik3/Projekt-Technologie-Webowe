@@ -1,0 +1,45 @@
+.header{
+  text-align: center;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  margin: 0.25rem 1rem;
+  background-color: #08a598;
+  color:aliceblue;
+  border-radius: 10px;
+}
+
+.btn2{
+  padding: 0.5rem 1rem;
+  margin: 1.5rem;
+  background-color: #08a598;
+  color:aliceblue;
+  border-radius: 10px;
+}
+
+th,td {
+  padding: 1rem;
+  border-bottom: 1px solid #4bc4bc;
+}
+
+#root {
+  padding: 0rem 6rem;
+  margin: 3rem;
+}
+
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.xdd{
+  margin: 0.5rem;
+  font-weight: bold;
+}
+
+.xd{
+  margin: 0.5rem;
+}
