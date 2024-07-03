@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 export const AddAuthor = ({ onAdd }) => {
   const [name, setName] = useState('');
-  const [surname, setSurname] = useState('');
+  const [surname, setSurname] = useState(''); //zmiana
 
   const handleSubmit = (event) => {
     if (name && surname) {
